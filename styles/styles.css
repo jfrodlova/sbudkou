@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1, h2, p {
+
+}
+
+div {
+    height: 800px;
+    width: 100%;
+    text-align: center;
+
+}
+
+/*navbar*/
+.navbar {
+height: 60px;
+width: 100%;
+position: fixed;
+}
+
+
+
+/*Header*/
+.photo-hero {
+    background-image: url("fruits-1534494_1920.jpg");
+    display: block;
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+}
+
+/*About*/
+
+
+/*Services*/
+
+
+/*Media*/
+
+
+/*References*/
+
+
+/*Contact*/
+
+
+/*Footer*/
+
+
+
+
