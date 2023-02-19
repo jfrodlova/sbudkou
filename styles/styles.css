@@ -7,10 +7,16 @@ h1, h2, p {
 
 }
 
+h2 {
+    padding-top: 50px;
+}
+
 div {
     height: 800px;
     width: 100%;
     text-align: center;
+    position: relative;
+   
 
 }
 
@@ -18,7 +24,7 @@ div {
 .navbar {
 height: 60px;
 width: 100%;
-position: fixed;
+
 }
 
 
@@ -26,10 +32,11 @@ position: fixed;
 /*Header*/
 .photo-hero {
     background-image: url("fruits-1534494_1920.jpg");
-    display: block;
+    display: inline-block;
     background-size: cover;
     color: black;
     font-weight: bold;
+    
 }
 
 /*About*/
@@ -48,7 +55,9 @@ position: fixed;
 
 
 /*Footer*/
-
+footer {
+    text-align: center;
+}
 
 
 
