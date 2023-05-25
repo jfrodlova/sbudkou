@@ -89,7 +89,8 @@ height: 60px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.5)), url("../images/photo-hero-1.jpg");
     background-size: cover;
-    height: 600px;
+    background-repeat: no-repeat;
+    height: 40rem;
     padding: 100px auto 250px;
     position: relative;
     top: 140px;
@@ -140,6 +141,7 @@ height: 60px;
 
 
 
+
 .profile-photo {
     border-radius: 50%;
     width: 300px;
@@ -152,9 +154,27 @@ height: 60px;
 
 /*Services*/
 #services {
-    min-height: 500px;
-    background-color: #F7E967;
+    min-height: 700px;
+    background-color: #ad6d053b;
+    /* text-align: center; */
+    display: flex;
+}
+.services-intro {
     text-align: center;
+}
+
+.services-row {
+    display: inline-flex;
+    margin: 7% 10% 7% 0;
+}
+
+#services img {
+    border-radius: 50%;
+    background-color: beige;
+    width: 250px;
+    
+    
+    
 }
 
 /*Media*/
@@ -166,8 +186,8 @@ height: 60px;
 /*Reference*/
 #reference {
     height: 400px;
-    background-color: #588F27;
-    color: white;
+    background-color: #338bc559;
+    /* color: white; */
     text-align: center;
 }
 
@@ -178,9 +198,10 @@ height: 60px;
 
 
 #contact div, #contact p {
-    /*display: flex;
+    
+    display: flex;
     justify-content: center;
-    align-items: flex-start;*/
+    align-items: flex-start;
 }
 
 form {
@@ -201,15 +222,14 @@ form textarea {
 
 /*Footer*/
 .footer {
-    position: fixed;
-    bottom: 0;
+        bottom: 0;
     left: 0;
     text-align: center;
     background-color: #A9CF54;
 }
 
 .footer p {
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 /*buttons*/
