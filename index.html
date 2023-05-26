@@ -20,7 +20,7 @@
 <body>
 
   <!--navbar-->
-  <nav class="navbar navbar-expand-lg bg-light fixed-top container-fluid">
+  <nav class="navbar navbar-expand-lg bg-white fixed-top container-fluid">
 
     <a class="navbar-brand" href="#"><img id="budka-img" src="images/budka.png" alt="company logo"></a>
     <span class="navbar-text">
@@ -88,7 +88,7 @@
     <!--Services-->
 
     <section id="services">
-      <div class="fluid-container">
+      <div class="container-fluid">
         <div class="services-intro">
           <h2>Služby</h2>
           <h3>Ovocnářství</h3>
@@ -96,21 +96,23 @@
           provedu výsadbu a následně se postarám o
           to, aby se stromům dařilo.</p>
         </div>
-       
-        <div class="services-row">
+       <div class="flex-container"> <!--dokončit v css-->
+        <div class="services-item"> <!--dokončit v css-->
           <h3>Konzultace</h3>
           <img src="images/information.png" alt="speech bubbles">
         </div>
 
-        <div class="services-row">
+        <div class="services-item">
           <h3>Výsadba</h3>
           <img src="images/plant-a-tree.png" alt="tree in a hand">
         </div>
 
-        <div class="services-row">
+        <div class="services-item">
           <h3>Péče</h3>
           <img src="images/scissors.png" alt="secateurs">
         </div>
+       </div>
+        
       </div>
     </section>
 
@@ -159,9 +161,6 @@
   <!--Footer-->
   <footer class="container-fluid">
       <p> &copy; 2023 | All rights reserved </p>
-      <!-- <a class="btn btn-light" href="mailto:budkaj@gmail.com" target="_blank">
-        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>   -->
-
   </footer>
 
 
