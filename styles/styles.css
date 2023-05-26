@@ -38,6 +38,7 @@ section {
 
 .services-item {
     display: inline-flex;
+    flex-direction: column;
 }
 
 
@@ -158,7 +159,7 @@ section {
 }  */
 
 .services-intro {
-    margin: 0 10%;
+    margin: 0 13%;
 }
 
 #services img {
@@ -192,7 +193,7 @@ section {
 }
 
 form {
-    margin: 50px;
+    margin-top: 5%;
     padding-bottom: 50px;
 }
 
