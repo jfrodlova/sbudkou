@@ -66,30 +66,27 @@
     </div>
     <div class="container-fluid photo-hero">
       <h2 class="photo-hero-text">Citlivý řez ovocných stromů</h2>
-      <a type="button" class="btn btn-light btn-lg" href="#services">Chci vědět víc</a>
+      <a type="button" class="btn btn-light btn-lg" href="#about">Chci vědět víc</a>
     </div>
   </header>
 
-  <div class="container-fluid mid-container">
+  <div class="container-fluid">
     <!--About-->
     <section id="about">
       <div class="container">
-        <div class="container">
-          <h2>O mně</h2>
+          
           <img class="profile-photo" src="images/profile.jpg" alt="Jan in an orchard">
           <p>Ahoj! Jmenuji se Honza. Jako sadař a entomolog mám rád stromy a brouky.
             A také mám rád souvislosti. Zkušenosti a znalosti z těchto dvou odlišných oborů
             mi dovolují nadhled a komplexní přístup
             s ohledem na udržitelnost. </p><br>
-
-        </div>
       </div>
     </section>
 
     <!--Services-->
 
     <section id="services">
-      <div class="container">
+      <div class="fluid-container">
         <div class="services-intro">
           <h2>Služby</h2>
           <h3>Ovocnářství</h3>
@@ -97,22 +94,22 @@
           provedu výsadbu a následně se postarám o
           to, aby se stromům dařilo.</p>
         </div>
+       
         <div class="services-row">
-          <img src="images/plant-a-tree.png" alt="">
           <h3>Konzultace</h3>
-          <h4> </h4>
+          <img src="images/information.png" alt="speech bubbles">
         </div>
+
         <div class="services-row">
-          <img src="images/plant-a-tree.png" alt="tree in a hand">
           <h3>Výsadba</h3>
-          <p> </p>
+          <img src="images/plant-a-tree.png" alt="tree in a hand">
         </div>
 
+        <div class="services-row">
+          <h3>Péče</h3>
+          <img src="images/scissors.png" alt="secateurs">
+        </div>
       </div>
-
-
-
-
     </section>
 
     <!--Media-->
@@ -134,20 +131,20 @@
     <!--Contact-->
     <section id="contact">
       <h2>Kontakt</h2>
-      <div class="container">
+      <div class="container-fluid">
 
-        <form action="">
+        <form action="" class="container-fluid">
           <p>Zaujala vás moje nabídka? Ozvěte se:</p><br>
 
 
 
-          <label for="fname">Vaše jméno a příjmení</label>
+          <label for="fname">Vaše jméno</label>
           <input type="text" id="name" name="name" placeholder="Vložte jméno a příjmení" required><br>
           <label for="email">Váš e-mail</label>
           <input type="text" id="email" name="email" placeholder="Váš e-mail"><br>
           <label for="telefon">Váš telefon</label>
           <input type="text" name="telefon" id="telefon" placeholder="Váš telefon" required><br>
-          <label for="message">Vaše zpráva</label><br>
+          
           <textarea id="message" rows="5" cols="50" placeholder="Vložte text vaší zprávy"></textarea><br>
 
           <button class="btn btn-dark">Odeslat</button>
@@ -156,11 +153,13 @@
 
     </section>
   </div>
+
   <!--Footer-->
-
-
   <footer class="container-fluid">
-    <p> &copy; 2023 | All rights reserved </p>
+      <p> &copy; 2023 | All rights reserved </p>
+      <a class="btn btn-light" href="mailto:budkaj@gmail.com" target="_blank">
+        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>  
+        
   </footer>
 
 
