@@ -82,7 +82,7 @@ section {
             rgba(0, 0, 0, 0.5)), url("../images/photo-hero-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40rem;
+    height: 600px;
     padding: 100px auto 250px;
     
     display: flex;
