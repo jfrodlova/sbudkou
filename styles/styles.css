@@ -181,6 +181,9 @@ section {
 
 
 /*Contact*/
+#contact {
+    background-color: #f2f2f2;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=tel], textarea {
@@ -199,13 +202,16 @@ input[type=text], input[type=tel], textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    
     padding: 20px;
+    margin: 7px;
   }
   
   .left {
     text-align: left;
   }
+
+
 
 /*Footer*/
  footer {
