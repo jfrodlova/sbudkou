@@ -5,6 +5,7 @@
     color: #212529;
 }
 
+
 h1 {
     font-family: "Nunito";
     font-size: 30px;
@@ -20,6 +21,7 @@ h2 {
     font-size: 2.5em;
 }
 
+
 p {
     font-family: "Nunito";
     font-size: 1.375rem;
@@ -29,8 +31,9 @@ section {
     text-align: center;
 }
 
+
 /* Flexbox */
-.flex-container {
+ .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -43,7 +46,7 @@ section {
 
 
 /*navbar*/
-.navbar {
+ .navbar {
     height: 60px;
     text-align: center;
 }
@@ -66,10 +69,10 @@ section {
 
 .navbar-toggler {
     margin-right: 20px;
-}
+} 
 
 /*Header*/
-.main-heading {
+ .main-heading {
     display: flex;
     margin-top: 70px;
     background-color: white;
@@ -92,11 +95,11 @@ section {
 }
 
 .photo-hero img {
-    height: 10%;
-}
+    height: 10%; 
+} 
 
-.btn-light {
-    /*layout*/
+ .btn-light {
+    
     width: 300px;
     position: absolute;
     top: 70%;
@@ -104,9 +107,9 @@ section {
     transform: translate(-50%, -50%);
     align-items: center;
     white-space: nowrap;
-    /*text*/
+    
     font-size: 1.5rem;
-    /*appearance*/
+    
     background-color: whitesmoke;
 }
 
@@ -116,20 +119,20 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    /*text*/
+    
     font-size: 3.5rem;
     font-weight: 700;
-    /*appearance*/
+    
     color: white;
 }
 
 #budka-img {
     height: 40px;
     margin-left: 1.25rem;
-}
+} 
 
 /*About*/
-#about {
+ #about {
     text-align: center;
     min-height: 500px;
     justify-content: center;
@@ -145,20 +148,20 @@ section {
     border-radius: 50%;
     margin: 5% auto 0;
 
-}
+} 
 
 /*Services*/
-#services {
+ #services {
     display: flex;
-    /* min-height: 700px; */
+    
     background-color: #ad6d053b;
-}
+} 
 
-/* .services-row, .service-row img, .service-row h3 {
+ .services-row, .service-row img, .service-row h3 {
     display: inline-flex;
-}  */
+}  
 
-.services-intro {
+ .services-intro {
     margin: 0 13%;
 }
 
@@ -168,120 +171,17 @@ section {
 
     background-color: beige;
     border-radius: 5%;
-    scale: 80%;
+    scale: 80%; 
 
 }
 
 /*Media*/
-.carousel {
-    margin: 50px auto;
-    overflow: hidden;
-    text-align: center;
-  }
-  
-  .slides {
-    width: 100%;
-    display: flex;
-    overflow-x: scroll;
-    scrollbar-width: none;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-  }
-  
-  .slides::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .slides-item {
-    /* align-items:center; */
-    border-radius: 10px;
-    display: flex;
-    flex-shrink: 0;
-    font-size: 1.5rem;
-    height: 600px;
-    justify-content:center;
-    margin: 0 1rem;
-    position: relative;
-    scroll-snap-align: start;
-    transform: scale(1);
-    transform-origin: center center;
-    transition: transform .5s;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  
-  }
-  
-  .carousel__nav {
-    padding: 1.25rem .5rem;
-  }
-  
-  .slider-nav {
-    align-items: center;
-    background-color: #ddd;
-    border-radius: 50%;
-    color: #000;
-    display: inline-flex;
-    height: 1.5rem;
-    justify-content: center;
-    padding: .5rem;
-    position: relative;
-    text-decoration: none;
-    width: 1.5rem;
-  }
-  
-  .slider-nav:hover,
-  .slider-nav:active {
-    background-color: #000;
-    color: #fff;
-  }
-  
-  .slide-1 {
-    background-image: url(../images/carousel1.jpg);
-    
-  }
-  
-  .slide-2 {
-    background-image: url(../images/carousel2.jpg);
-  }
-  
-  .slide-3 {
-    background-image: url(../images/carousel3.jpg);
-  }
-  
-  .slide-4 {
-    background-image: url(../images/carousel4.jpg);
-}
-  
-  .slide-5 {
-    background-image: url(../images/carousel5.jpg);
-  }
-  
-  .carousel__skip-link {
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    top: auto;
-    width: 1px;
-  }
-  
-  .carousel__skip-link:focus {
-    align-items: center;
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    font-size: 30px;
-    height: 680px;
-    justify-content: center;
-    opacity: .8;
-    text-decoration: none;
-    width: 100%;
-    z-index: 1;
 
-
+  
 
 
 /*Contact*/
+
 #contact div,
 #contact p {
     display: flex;
@@ -305,19 +205,19 @@ form textarea {
 }
 
 /*Footer*/
-footer {
+ footer {
     height: 3rem;
     bottom: 0;
     text-align: center;
-    /* background-color: rgba(210, 221, 32, 0.7); */
+    /*background-color: rgba(210, 221, 32, 0.7); */
 
 
 }
 
-footer p {
+ footer p {
     font-size: 0.7rem;
 
-}
+} 
 
 /*buttons*/
 form {
@@ -334,11 +234,11 @@ form button:active {
 
 
 form button {
-    /*layout*/
+    
     margin: 30px;
     padding: 10px 20px;
 
-    /*appearance*/
+    
     background-color: #CAFCD8;
     border: darkgray;
     border-radius: 10px;
@@ -347,11 +247,13 @@ form button {
 
 
 /* Media query */
-@media only screen and (max-width: 426px) {
+ @media only screen and (max-width: 426px) { 
 
     /* .btn-light {
         top: 80%;
     } */
+   
+ 
     form,
     label {
         justify-content: flex-start;
