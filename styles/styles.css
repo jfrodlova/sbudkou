@@ -211,6 +211,16 @@ input[type=text], input[type=tel], textarea {
     text-align: left;
   }
 
+  form a:hover {
+    font-weight: 700;
+  }
+
+  form a {
+    text-decoration: none;
+    font-size: 1.375rem;
+  }
+
+
 
 
 /*Footer*/
@@ -233,16 +243,14 @@ form {
     justify-content: flex-start;
 }
 
-form button:hover {
-    background-color: #a1cfae;
-}
+
 
 form button:active {
     font-weight: 600;
 }
 
 
-form button {
+form btn {
     
     margin: 30px;
     padding: 10px 20px;

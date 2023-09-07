@@ -170,21 +170,23 @@
    <section id="contact">
     <div class="container"></div>  
       <h2>Kontakt</h2>
-              <form action="" class="container">
-           <p>Zaujala vás moje nabídka? Ozvěte se. <br>
-          Můžete mi zavolat <a href="tel:+420-776-890-227">776 890 227</a> nebo mi  pošlete zprávu přes formulář.</p>
+              <form action="mailto:jitka.moutelikova@gmail.com" method="get">
+           <p>Zaujala vás moje nabídka? 
+          Můžete mi  <a href="tel:+420-776-890-227">zavolat</a> nebo mi  pošlete zprávu přes formulář.</p>
           
 
           <div class="left">
-            <label for="name">Vaše jméno</label>
+            <label for="name">Vaše jméno*</label>
             <input type="text" id="name" name="name" placeholder="Vložte jméno a příjmení" required><!-- <br> -->
             <label for="email">Váš e-mail</label>
             <input type="text" id="email" name="email" placeholder="Váš e-mail">
-            <label for="phone">Váš telefon</label>
+            <label for="phone">Váš telefon*</label>
             <input type="tel" id="phone" name="phone" placeholder="Váš telefon" required/>
+            <label for="subject">Předmět zprávy</label>
+            <input type="text" id="subject" name="subject" placeholder="Předmět zprávy">
           </div>
-          <textarea id="message" rows="5" cols="50" placeholder="Vložte text vaší zprávy"></textarea>
-
+          <textarea id="message" rows="5" cols="50" placeholder="Vložte text vaší zprávy" required></textarea>
+          <input type="submit" value="Send">
           <button class="btn btn-dark">Odeslat</button> 
         </form> 
       </div>
