@@ -12,16 +12,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
-    <script src="https://kit.fontawesome.com/865d3da78e.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/865d3da78e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles/styles.css">
   <script src="script.js" async></script>
-  
+
 </head>
 
 <body>
 
   <!--navbar-->
-  <nav class="navbar navbar-expand-lg bg-white fixed-top container-fluid">
+  <nav class="navbar navbar-expand-sm bg-white fixed-top container-fluid">
 
     <a class="navbar-brand" href="#"><img id="budka-img" src="images/budka.png" alt="company logo"></a>
     <span class="navbar-text">
@@ -47,9 +47,6 @@
           <a class="nav-link" href="#carousel">Galerie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#reference">Reference</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#contact">Kontakt</a>
         </li>
 
@@ -63,129 +60,122 @@
 
 
   <!--Header section-->
-  <header>
-    <div class="container-fluid main-heading h-85">
-      <h1> Extenzivní sadařství </h1>
-    </div>
-    <div class="container-fluid photo-hero">
-      <h2 class="photo-hero-text">Citlivý řez ovocných stromů</h2>
-      <a type="button" class="btn btn-light btn-lg" href="#about">Chci vědět víc</a>
-    </div>
-  </header>
+  <div class="container-lg">
+    <header>
+      <div class="container-fluid main-heading h-85">
+        <h1> Extenzivní sadařství </h1>
+      </div>
+      <div class="container-fluid photo-hero">
+        <h2 class="photo-hero-text">Citlivý řez ovocných stromů</h2>
+        <a type="button" class="btn btn-light btn-lg" href="#about">Chci vědět víc</a>
+      </div>
+    </header>
+  </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid container-sm">
     <!--About-->
     <section id="about">
-      <div class="container">
-          
-          <img class="profile-photo" src="images/profile.jpg" alt="Jan in an orchard">
-          <p>Ahoj! Jmenuji se Honza. Jako sadař a entomolog mám rád stromy a brouky.
-            A také mám rád souvislosti. Zkušenosti a znalosti z těchto dvou odlišných oborů
-            mi dovolují nadhled a komplexní přístup
-            s ohledem na udržitelnost. </p><br>
+      <div class="container-sm">
+
+        <img class="profile-photo" src="images/profile.jpg" alt="Jan in an orchard">
+        <p>Ahoj! Jmenuji se Honza. Jako sadař a entomolog mám rád stromy a brouky.
+          A také mám rád souvislosti. Zkušenosti a znalosti z těchto dvou odlišných oborů
+          mi dovolují nadhled a komplexní přístup
+          s ohledem na udržitelnost. </p><br>
       </div>
     </section>
 
     <!--Services-->
-
     <section id="services">
       <div class="container-fluid">
         <div class="services-intro">
           <h2>Ovocnářské služby</h2>
           <p>Mám rád stromy. Jako sadař a ekolog vám navrhnu vhodné odrůdy do vašich klimatických podmínek,
-          provedu výsadbu a následně se postarám o
-          to, aby se stromům dařilo.</p> 
-        </div> 
-       <div class="flex-container"> 
-        <div class="services-item">
-          <h3>Konzultace</h3>
-          <img src="images/information.png" alt="speech bubbles">
+            provedu výsadbu a následně se postarám o
+            to, aby se stromům dařilo.</p>
+        </div>
+        <div class="flex-container">
+          <div class="services-item">
+            <h3>Konzultace</h3>
+            <img src="images/information.png" alt="speech bubbles">
+          </div>
+
+          <div class="services-item">
+            <h3>Výsadba</h3>
+            <img src="images/plant-a-tree.png" alt="tree in a hand">
+          </div>
+
+          <div class="services-item">
+            <h3>Péče</h3>
+            <img src="images/scissors.png" alt="secateurs">
+          </div>
         </div>
 
-        <div class="services-item">
-          <h3>Výsadba</h3>
-          <img src="images/plant-a-tree.png" alt="tree in a hand">
-        </div>
-
-        <div class="services-item">
-          <h3>Péče</h3>
-          <img src="images/scissors.png" alt="secateurs">
-        </div>
-       </div>
-        
       </div>
     </section>
 
     <!--Galerie-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-      <div class="carousel-indicators">
+    <section id="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
+            aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
+            aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
+            aria-label="Slide 3"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-              aria-label="Slide 4"></button>
+            aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-              aria-label="Slide 5"></button>
-      
-          </div>
-      <div class="carousel-inner">
+            aria-label="Slide 5"></button>
+        </div>
+
+        <div class="carousel-inner">
           <div class="carousel-item active">
-              <img src="images/carousel1.jpg" class="d-block w-100" alt="...">
+            <img src="images/carousel1.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-              <img src="images/carousel2.jpg" class="d-block w-100" alt="...">
+            <img src="images/carousel2.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-              <img src="images/carousel3.jpg" class="d-block w-100" alt="...">
+            <img src="images/carousel3.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-              <img src="images/carousel4.jpg" class="d-block w-100" alt="...">
+            <img src="images/carousel4.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-              <img src="images/carousel5.jpg" class="d-block w-100" alt="...">
+            <img src="images/carousel5.jpg" class="d-block w-100" alt="...">
           </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-      </button>
-  </div>
-    
-  
-  
-
-   
-
+        </button>
+      </div>
+    </section>
 
     <!--Contact-->
-   <section id="contact">
-    <div class="container"></div>  
+    <section id="contact">
       <h2>Kontakt</h2>
-             
-           <p>Zaujala vás moje nabídka? 
-          Můžete mi zavolat nebo napište.</p>
-          <a class="btn btn-dark btn-lg btn-contact" href="tel:+420-776-890-227">
-            <i class="fa-solid fa-phone" style="color: #e1e2e5;"></i> 776 890 227</a>
-          <a class="btn btn-dark btn-lg btn-contact" href="mailto:budkaj@gmail.com">
-            <i class="fa-regular fa-envelope" style="color: #e1e2e5;"></i> budkaj@gmail.com</a> 
-          
-      </div>
 
+      <p>Zaujala vás moje nabídka?
+        Můžete mi zavolat nebo napište.</p>
+      <a class="btn btn-dark btn-lg btn-contact" href="tel:+420-776-890-227">
+        <i class="fa-solid fa-phone" style="color: #e1e2e5;"></i> 776 890 227</a>
+      <a class="btn btn-dark btn-lg btn-contact" href="mailto:budkaj@gmail.com">
+        <i class="fa-regular fa-envelope" style="color: #e1e2e5;"></i> budkaj@gmail.com</a>
     </section>
-  </div>
+</div>
 
   <!--Footer-->
   <footer class="container-fluid">
-      <p> &copy; 2023 | All rights reserved </p>
+    <p> &copy; 2023 | All rights reserved </p>
   </footer>
 
 
