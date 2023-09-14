@@ -67,6 +67,10 @@ section {
     margin: 0 1.5rem;
 }
 
+.navbar-z {
+    z-index: 1020;
+}
+
 .nav-link:hover {
     font-weight: bold;
 }
@@ -189,9 +193,7 @@ section {
 
 
 /*Contact*/
-#contact {
-    background-color: #f2f2f2;
-}
+
 
 #contact a:hover {
     
@@ -213,6 +215,14 @@ section {
     /*background-color: rgba(210, 221, 32, 0.7); */
 
 
+}
+footer a:hover {
+    font-weight: 700;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 0.7rem;
 }
 
  footer p {
