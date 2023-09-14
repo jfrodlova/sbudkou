@@ -86,7 +86,7 @@ section {
 /*Header*/
  .main-heading {
     display: flex;
-    margin-top: 70px;
+    margin-top: 20px;
     background-color: white;
     justify-content: center;
     align-content: center;
