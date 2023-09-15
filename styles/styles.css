@@ -1,14 +1,14 @@
-* {
+ * {
     box-sizing: border-box;
     margin: 0;
     font-size: 16px;
     color: #212529;
-}
+} 
 
 
 
 
-h1 {
+ h1 {
     font-family: "Nunito";
     font-size: 30px;
     font-weight: 700;
@@ -27,45 +27,45 @@ h2 {
 p {
     font-family: "Nunito";
     font-size: 22px;
-}
+} 
 
-section {
+ section {
     text-align: center;
-}
+} 
 
-.container {
+ .container {
     border-radius: 5px;
     
     padding: 20px;
     margin: 7px;
-  }
+  } 
 
 /* Flexbox */
- .flex-container {
+  .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.services-item {
+ .services-item {
     display: inline-flex;
     flex-direction: column;
-}
+} 
 
 
 /*navbar*/
- .navbar {
+  .navbar {
     height: 60px;
     text-align: center;
-}
+} 
 
-.navbar-collapse {
+ .navbar-collapse {
     background-color: white;
-}
+} 
 
 .nav-link {
-    margin: 0 1.5rem;
-}
+    padding: 0 1.5rem;
+} 
 
 .navbar-z {
     z-index: 1020;
@@ -140,7 +140,7 @@ section {
 
 #budka-img {
     height: 40px;
-    margin-left: 1.25rem;
+    margin: 0 20px;
 } 
 
 /*About*/
@@ -240,11 +240,6 @@ footer a {
     font-size: 18px;
 }
 
-/* Media query */
-/* @media (max-width: 979px) {
-    body {
-      padding-top: 0px;
-    }
-  } */
+
 
 
