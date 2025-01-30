@@ -9,7 +9,6 @@
      font-family: "Nunito";
      font-size: 30px;
      font-weight: 700;
-
      text-transform: uppercase;
      text-align: center;
  }
@@ -30,9 +29,13 @@
      text-align: center;
  }
 
+ section a {
+    text-decoration: none;
+    font-size: 22px;
+ }
+
  .container {
      border-radius: 5px;
-
      padding: 20px;
      margin: 7px;
  }
@@ -155,13 +158,11 @@
      width: 280px;
      border-radius: 50%;
      margin: 5% auto 5%;
-
  }
 
  /*Services*/
  #services {
      display: flex;
-
      background-color: #ad6d053b;
  }
 
