@@ -15,7 +15,6 @@
 
  h2 {
      font-family: "Roboto";
-     padding-top: 30px;
      font-size: 2.5em;
  }
 
@@ -25,8 +24,10 @@
      font-size: 22px;
  }
 
+
  section {
      text-align: center;
+     margin-top: 30px;
  }
 
  section a {
@@ -45,11 +46,6 @@
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
- }
-
- .services-item {
-     display: inline-flex;
-     flex-direction: column;
  }
 
 
@@ -110,7 +106,6 @@
  }
 
  .btn-light {
-
      width: 220px;
      position: absolute;
      top: 75%;
@@ -118,9 +113,7 @@
      transform: translate(-50%, -50%);
      align-items: center;
      white-space: nowrap;
-
      font-size: 1.5rem;
-
      background-color: whitesmoke;
  }
 
@@ -130,10 +123,8 @@
      left: 50%;
      transform: translate(-50%, -50%);
      text-align: center;
-
      font-size: 3.5rem;
      font-weight: 700;
-
      color: white;
  }
 
@@ -161,43 +152,63 @@
  }
 
  /*Services*/
- #services {
-     display: flex;
-     background-color: #ad6d053b;
+.card {
+    margin: 2%;
+    text-align: center;
+    flex-basis: auto;
+    padding: 0.5rem;
+    border-color: transparent;
+    width: 320px;
+    min-height: 220px;
+    background-color: transparent;
+}
+
+.card-item img {
+    margin-top: 35px;
+    width: 100px;
+    border-radius: 5%;
+    scale: 80%;
+    height: 50%;   
+}
+
+.card-item li {
+    list-style-type: circle;
+    text-align: left;
  }
 
- .services-row,
- .service-row img,
- .service-row h3 {
-     display: inline-flex;
- }
+#services {
+    display: flex;
+    background-color: #ad6d053b;
+}
 
- .services-intro {
-     margin: 0 13%;
- }
+.services-row,
+.service-row img,
+.service-row h3 {
+    display: inline-flex;
+}
 
- #services img {
-     max-width: 250px;
-     height: auto;
-     background-color: white;
-     border-radius: 5%;
-     scale: 80%;
- }
+.intro {
+    margin: 30px 8%;
+}
 
 
 
+.services-item {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 0.5rem; /* Adds spacing between the items */
 }
 
  /* Footer */
- footer {
+ footer a {
      height: 3rem;
      bottom: 0;
      text-align: center;
  }
 
  footer a:hover {
-     font-weight: 700;
- }
+    font-weight: 700;
+}
 
  footer a {
      text-decoration: none;
@@ -207,6 +218,7 @@
  footer p {
      font-size: 0.7rem;
      margin-top: 10px;
+     text-align: center;
  }
 
  /* Buttons */
@@ -218,3 +230,10 @@
      width: 220px;
      font-size: 18px;
  }
+
+ /*media*/
+ @media screen and (max-width: 349px) {
+    .card-item img {
+        display: none;
+    }
+}
